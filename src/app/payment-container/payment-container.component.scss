@@ -1,9 +1,26 @@
 .Payment-container{
     width: 100%;
     height: 100px;
-    background-color: red;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
     margin-top: 25px;
+    background-color: rgb(247, 234, 234);
+}
 
+.Payment-container i{
+    font-size: 2em;
+}
+
+.Payment-Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Payment-Card-Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    color: blue;
 }
